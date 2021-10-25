@@ -1,18 +1,14 @@
 import react from "react";
 
-export const Greeting = () => 
+export const Greeting = (props) => 
 {
+    console.log(props);
+
     return (
         <>
-            <h1>Hello Class! ! ! </h1>
+            
 
-            <h2>Hello Juan! ! ! </h2>
-
-            <h2>Hello Melanie! ! ! </h2>
-
-            <h2>Hello Sasha! ! ! </h2>
-
-            <h2>Hello Chris! ! ! </h2>
+            <h2>Hello {props.name} ! ! ! </h2>
         </>
 
     );
