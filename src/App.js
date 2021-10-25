@@ -4,11 +4,11 @@ import { Greeting } from './Greeting';
 const App = () => {
   return (
     <>
-      <Greeting name="Adv Cloud Class"/>
-      <Greeting name="Juan"/>
-      <Greeting name="Savannah"/>
-      <Greeting name="Chris"/>
-      <Greeting name="Persephony"/>
+      <Greeting name="Adv Cloud Class" favoriteNumber={12}/>
+      <Greeting name="Juan" favoriteNumber={76}/>
+      <Greeting name="Savannah" favoriteNumber={16}/>
+      <Greeting name="Chris"favoriteNumber={27}/>
+      <Greeting name="Persephony" favoriteNumber={50}/>
     </>
   );
 }
