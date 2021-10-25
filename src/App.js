@@ -1,5 +1,5 @@
 import './App.css';
-import Greeting from './Greeting';
+import { Greeting } from './Greeting';
 
 const App = () => {
   return (

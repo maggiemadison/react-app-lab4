@@ -1,6 +1,6 @@
 import react from "react";
 
-const Greeting = () => 
+export const Greeting = () => 
 {
     return (
         <>
@@ -15,6 +15,5 @@ const Greeting = () =>
             <h2>Hello Chris! ! ! </h2>
         </>
 
-    )
-}
-export default Greeting;
+    );
+};
